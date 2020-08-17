@@ -1,5 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
+import Home from './Home.vue'
+
+
+Vue.component('app-servers', Home);
 
 new Vue({
   el: '#app',
@@ -7,4 +11,3 @@ new Vue({
 })
 
 
-// npm install --save-dev babel-preset-stage-2 
